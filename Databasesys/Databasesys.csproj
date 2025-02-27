@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49A39DD6-1B42-4778-98A7-99FA0C2839C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Databasesys</RootNamespace>
+    <AssemblyName>Databasesys</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actor.Designer.cs">
+      <DependentUpon>Actor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Director.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Director.Designer.cs">
+      <DependentUpon>Director.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2dbms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2dbms.Designer.cs">
+      <DependentUpon>Form2dbms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location.Designer.cs">
+      <DependentUpon>Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Production.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Production.Designer.cs">
+      <DependentUpon>Production.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Property.Designer.cs">
+      <DependentUpon>Property.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuietatticDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuietatticDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff.Designer.cs">
+      <DependentUpon>staff.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Actor.resx">
+      <DependentUpon>Actor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Director.resx">
+      <DependentUpon>Director.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2dbms.resx">
+      <DependentUpon>Form2dbms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location.resx">
+      <DependentUpon>Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production.resx">
+      <DependentUpon>Production.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Property.resx">
+      <DependentUpon>Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff.resx">
+      <DependentUpon>staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QuietatticDataSet.xsc">
+      <DependentUpon>QuietatticDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet.xss">
+      <DependentUpon>QuietatticDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet1.xsc">
+      <DependentUpon>QuietatticDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet1.xss">
+      <DependentUpon>QuietatticDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet10.xsc">
+      <DependentUpon>QuietatticDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet10.xss">
+      <DependentUpon>QuietatticDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet11.xsc">
+      <DependentUpon>QuietatticDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet11.xss">
+      <DependentUpon>QuietatticDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet12.xsc">
+      <DependentUpon>QuietatticDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet12.xss">
+      <DependentUpon>QuietatticDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet13.xsc">
+      <DependentUpon>QuietatticDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet13.xss">
+      <DependentUpon>QuietatticDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet14.xsc">
+      <DependentUpon>QuietatticDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet14.xss">
+      <DependentUpon>QuietatticDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet15.xsc">
+      <DependentUpon>QuietatticDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet15.xss">
+      <DependentUpon>QuietatticDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet16.xsc">
+      <DependentUpon>QuietatticDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet16.xss">
+      <DependentUpon>QuietatticDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet2.xsc">
+      <DependentUpon>QuietatticDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet2.xss">
+      <DependentUpon>QuietatticDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet3.xsc">
+      <DependentUpon>QuietatticDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet3.xss">
+      <DependentUpon>QuietatticDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet4.xsc">
+      <DependentUpon>QuietatticDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet4.xss">
+      <DependentUpon>QuietatticDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet5.xsc">
+      <DependentUpon>QuietatticDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet5.xss">
+      <DependentUpon>QuietatticDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet6.xsc">
+      <DependentUpon>QuietatticDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet6.xss">
+      <DependentUpon>QuietatticDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet7.xsc">
+      <DependentUpon>QuietatticDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet7.xss">
+      <DependentUpon>QuietatticDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet8.xsc">
+      <DependentUpon>QuietatticDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet8.xss">
+      <DependentUpon>QuietatticDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet9.xsc">
+      <DependentUpon>QuietatticDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="QuietatticDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuietatticDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuietatticDataSet9.xss">
+      <DependentUpon>QuietatticDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

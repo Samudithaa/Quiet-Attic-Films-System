@@ -1,0 +1,40 @@
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\bin\Debug\Databasesys.pdb
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.csproj.AssemblyReference.cache
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Form1.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Properties.Resources.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.csproj.GenerateResource.cache
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.csproj.CoreCompileInputs.cache
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.pdb
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Form2dbms.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.staff.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Customer.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Actor.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Director.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Location.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Order.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Payment.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Production.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Property.resources
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\bin\Debug\Databasesys.dll.config
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\bin\Debug\Databasesys.dll
+C:\Users\Samuditha\OneDrive\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.dll
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.csproj.AssemblyReference.cache
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Actor.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Customer.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Director.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Form1.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Form2dbms.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Location.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Order.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Payment.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Production.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Properties.Resources.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.Property.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.staff.resources
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.csproj.GenerateResource.cache
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.csproj.CoreCompileInputs.cache
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.pdb
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\bin\Debug\Databasesys.pdb
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\bin\Debug\Databasesys.exe.config
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\bin\Debug\Databasesys.exe
+C:\Users\Samuditha\OneDrive\Semester 1\Database Assignment\Databasesys\Databasesys\obj\Debug\Databasesys.exe
